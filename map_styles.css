@@ -1,0 +1,217 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para el encabezado principal */
+.h1-initial {
+    text-align: center;
+}
+
+.h2-initial {
+    text-align: center;
+}
+
+/* Estilos para el logo inicial */
+.logo-initial {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+.logo-initial img {
+    width: 170px;
+}
+
+/* NUEVOS ESTILOS para el botón de carga */
+.button-upload {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.upload-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #007bff; /* Color de botón primario */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background-color 0.3s;
+}
+
+.upload-button:hover {
+    background-color: #0056b3;
+}
+
+.button-print {
+    display: flex;
+    justify-content: center;
+}
+
+.button-print button {
+    margin: 0 auto;
+}
+
+/* Estilos para el número de habitación */
+.roomNumberContent {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(9, auto);
+    gap: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+    margin: 15px;
+    background-color: #f4f4f4;
+    font-size: 11px;
+}
+
+/* Estilos para el encabezado del voucher */
+.h1-container {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Estilos para el logo del voucher */
+.logo-container img {
+    width: 120px;
+}
+
+.logo-container {
+    grid-column: 4 / -1;
+    grid-row: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Estilos para el párrafo de cena */
+.container .p-cena {
+    grid-column: 1 / span 6;
+    grid-row: 2;
+}
+
+/* Estilos para el nombre del pasajero */
+.container .passengerName {
+    grid-column: 1 / span 4;
+    grid-row: 3;
+    justify-content: center;
+}
+
+/* Estilos para el DNI del pasajero */
+.container .dni {
+    grid-column: 5 / -1;
+    grid-row: 3;
+}
+
+/* Estilos para el nombre del hotel */
+.container .hotel {
+    grid-column: 1 / span 6;
+    grid-row: 4;
+    justify-content: center;
+}
+
+/* Estilos para la fecha de ingreso */
+.container .din {
+    grid-column: 3 / -2;
+    grid-row: 5;
+    justify-content: center;
+}
+
+/* Estilos para la fecha de egreso */
+.container .dout {
+    grid-column: 5 / -1;
+    grid-row: 5;
+}
+
+/* Estilos para el número de habitación */
+.container .roomNumber {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+}
+
+/* Estilos para la cantidad de personas */
+.container .cantp {
+    grid-column: 5 / -1;
+    grid-row: 6;
+}
+
+/* Estilos para el párrafo de servicios */
+.container .p-servicios {
+    grid-column: 1 / span 3;
+    grid-row: 7;
+}
+
+/* Estilos para la cantidad de comidas */
+.container .cantMap {
+    grid-column: 5 / -1;
+    grid-row: 7;
+}
+
+/* Estilos para la imagen de check */
+.check-container img {
+    width: 250px;
+}
+
+/* Estilos para el contenedor del check */
+.check-container {
+    grid-column: 1 / span 6;
+    grid-row: 8;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* Estilos para el contenedor de resultados */
+#resultContainer {
+    margin: 5px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Estilos para el resultado del voucher */
+#resultOutput {
+    padding: 10px;
+    white-space: pre-wrap;
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+#noDataMessage {
+    display: none;
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(167, 50, 50);
+}
+
+/* Ocultar elementos en la impresión */
+@media print {
+    .header-container {
+        display: none;
+    }
+    .print-buttons-container {
+        display: none;
+    }
+}
+
+
+Enviado desde Outlook para Android
