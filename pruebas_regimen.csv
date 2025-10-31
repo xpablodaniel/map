@@ -1,0 +1,14 @@
+ID,Hotel,Habitacion,Tipo,Observacion,Plazas,Voucher,Estado,Check In,Check Out,Tarifa,Categoria,DNI,Nombre,Apellido,Email,Servicios,Origen,Destino
+1,Hotel Mar del Plata,101,DBL MAT,Familia Rodriguez,2,V001,Confirmada,31/10/2025,05/11/2025,Standard,Regular,20123456,Juan,Rodriguez,juan@email.com,MEDIA PENSION;DESAYUNO,Buenos Aires,Mar del Plata
+2,Hotel Mar del Plata,101,DBL MAT,Familia Rodriguez,2,V001,Confirmada,31/10/2025,05/11/2025,Standard,Regular,21123456,Maria,Rodriguez,maria@email.com,MEDIA PENSION;DESAYUNO,Buenos Aires,Mar del Plata
+3,Hotel Mar del Plata,102,SINGLE,Individual,1,V002,Confirmada,30/10/2025,03/11/2025,Standard,Regular,22123456,Pedro,Gomez,pedro@email.com,DESAYUNO,Córdoba,Mar del Plata
+4,Hotel Mar del Plata,103,TRIPLE,Grupo Amigos,3,V003,Confirmada,02/11/2025,07/11/2025,Standard,Regular,23123456,Ana,Martinez,ana@email.com,MEDIA PENSION;DESAYUNO,Santa Fe,Mar del Plata
+5,Hotel Mar del Plata,103,TRIPLE,Grupo Amigos,3,V003,Confirmada,02/11/2025,07/11/2025,Standard,Regular,24123456,Carlos,Sanchez,carlos@email.com,MEDIA PENSION;DESAYUNO,Santa Fe,Mar del Plata
+6,Hotel Mar del Plata,103,TRIPLE,Grupo Amigos,3,V003,Confirmada,02/11/2025,07/11/2025,Standard,Regular,25123456,Laura,Perez,laura@email.com,MEDIA PENSION;DESAYUNO,Santa Fe,Mar del Plata
+7,Hotel Mar del Plata,104,DBL MAT,Individual en Doble,1,V004,Confirmada,29/10/2025,04/11/2025,Standard,Regular,26123456,Miguel,Lopez,miguel@email.com,MEDIA PENSION;DESAYUNO,Mendoza,Mar del Plata
+8,Hotel Mar del Plata,105,CUADRUPLE,Familia Torres,4,V005,Confirmada,01/11/2025,08/11/2025,Standard,Regular,27123456,Roberto,Torres,roberto@email.com,MEDIA PENSION;DESAYUNO,Buenos Aires,Mar del Plata
+9,Hotel Mar del Plata,105,CUADRUPLE,Familia Torres,4,V005,Confirmada,01/11/2025,08/11/2025,Standard,Regular,28123456,Silvia,Torres,silvia@email.com,MEDIA PENSION;DESAYUNO,Buenos Aires,Mar del Plata
+10,Hotel Mar del Plata,105,CUADRUPLE,Familia Torres,4,V005,Confirmada,01/11/2025,08/11/2025,Standard,Regular,29123456,Lucas,Torres,lucas@email.com,MEDIA PENSION;DESAYUNO,Buenos Aires,Mar del Plata
+11,Hotel Mar del Plata,105,CUADRUPLE,Familia Torres,4,V005,Confirmada,01/11/2025,08/11/2025,Standard,Regular,30123456,Julia,Torres,julia@email.com,MEDIA PENSION;DESAYUNO,Buenos Aires,Mar del Plata
+12,Hotel Mar del Plata,106,DBL MAT,Solo Desayuno,2,V006,Confirmada,04/11/2025,06/11/2025,Standard,Regular,31123456,Diego,Fernandez,diego@email.com,DESAYUNO,La Plata,Mar del Plata
+13,Hotel Mar del Plata,107,TRIPLE,Hab Triple Individual,1,V007,Confirmada,01/11/2025,10/11/2025,Standard,Regular,32123456,Carmen,Garcia,carmen@email.com,MEDIA PENSION;DESAYUNO,Rosario,Mar del Plata
